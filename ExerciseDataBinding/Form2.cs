@@ -25,8 +25,7 @@ namespace ExerciseDataBinding
 
         private void pictureBox3_Click(object sender, EventArgs e)
         {
-            Form1 alam = new Form1();
-            alam.Show();
+            this.Close();
         }
 
         private void pictureBox2_Click(object sender, EventArgs e)

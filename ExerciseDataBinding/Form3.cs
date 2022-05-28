@@ -23,5 +23,10 @@ namespace ExerciseDataBinding
             this.mahasiswaTableAdapter.Fill(this.prodiTIDataSet1.Mahasiswa);
 
         }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }
